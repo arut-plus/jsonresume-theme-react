@@ -1,28 +1,24 @@
 @layer base {
   :root {
-    /* Modern Minimalist Theme - Light Mode */
-    --color-brand: #3b82f6; /* More sophisticated blue accent */
-    --color-brand-light: #60a5fa; /* Lighter blue for hover */
-    --color-brand-dark: #1d4ed8; /* Darker blue for active */
+    /* Arctic Blue */
+    --color-brand: #5eb3d9;
+    --color-brand-light: #7ec5e6;
+    --color-brand-dark: #4a8fb3;
 
-    /* Text Colors - Refined monochromatic scale */
-    --color-text: #1f2937; /* Near-black text for headings */
-    --color-text-secondary: #4b5563; /* Medium gray text for body */
-    --color-text-tertiary: #6b7280; /* Light gray text for captions */
-    --color-text-muted: #6b7178; /* Muted text for less important content */
+    --color-text: #f0e9e6;
+    --color-text-secondary: #c0d0da;
+    --color-text-tertiary: #7f9eb2;
+    --color-text-muted: #6a879c;
 
-    /* Background Colors */
-    --color-bg: #ffffff; /* Pure white background */
-    --color-bg-secondary: #f8fafc; /* Very subtle off-white for cards */
-    --color-bg-accent: #eff6ff; /* Very light blue accent background */
+    --color-bg: #0f0e0d;
+    --color-bg-secondary: #1a1816;
+    --color-bg-accent: #252220;
 
-    /* Border Colors */
-    --color-border: #e5e7eb; /* Light gray border */
+    --color-border: #3a4a56;
 
-    /* Accent colors */
-    --color-accent-primary: #10b981; /* Emerald green for success/positive */
-    --color-accent-secondary: #f59e0b; /* Amber for warnings/neutral */
-    --color-accent-danger: #ef4444; /* Red for errors/negative */
+    --color-accent-primary: #5eb3d9;
+    --color-accent-secondary: #66d9d4;
+    --color-accent-danger: #e85d75;
   }
 }
 

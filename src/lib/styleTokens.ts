@@ -1,8 +1,8 @@
 export const spacing = {
-  // Base spacing units (assuming 13px base font size)
+  // Base spacing units (assuming 18px base font size)
   xs: 'px', // 1 pixel
   sm: '0.5rem', // 6.5px
-  md: '1rem', // 13px
+  md: '1rem', // 18px
   lg: '1.5rem', // 19.5px
   xl: '2rem', // 26px
 

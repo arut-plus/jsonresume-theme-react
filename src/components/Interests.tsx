@@ -14,7 +14,7 @@ export const Interests: FC<InterestsProps> = ({ interests }) => {
   }
 
   return (
-    <SidebarSection title="sections.interests" contentClassName="grid grid-cols-2 gap-4">
+    <SidebarSection title="sections.interests" contentClassName="grid gap-4">
       {interests.map((interest, index) => (
         <div key={`interest-${index}`}>
           <h3 className="text-base font-medium text-foreground">{interest.name}</h3>

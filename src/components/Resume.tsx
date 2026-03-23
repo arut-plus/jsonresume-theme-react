@@ -37,7 +37,7 @@ export const Resume: FC<ResumeProps> = memo(({ resume }) => {
 
   return (
     <div
-      className={`container p-3 mx-auto lg:w-[960px] bg-color text-text print:max-w-full print:p-0 print:w-full print:px-6`}
+      className={`container p-3 mx-auto lg:w-[1100px] bg-color text-text print:max-w-full print:p-0 print:w-full print:px-6`}
     >
       <Header basics={basics} />
 
@@ -47,6 +47,7 @@ export const Resume: FC<ResumeProps> = memo(({ resume }) => {
           {education && education.length > 0 && <Education education={education} />}
           {projects && projects.length > 0 && <Projects projects={projects} />}
           {volunteer && volunteer.length > 0 && <Volunteer volunteer={volunteer} />}
+          {references && references.length > 0 && <References references={references} />}
         </div>
 
         <div className={`lg:w-1/3 print:w-[28%]`}>
@@ -60,7 +61,6 @@ export const Resume: FC<ResumeProps> = memo(({ resume }) => {
               <Certificates certificates={certificates} />
             )}
             {awards && awards.length > 0 && <Awards awards={awards} />}
-            {references && references.length > 0 && <References references={references} />}
             {interests && interests.length > 0 && <Interests interests={interests} />}
           </div>
         </div>

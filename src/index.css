@@ -7,7 +7,7 @@
 
 @layer base {
   html {
-    @apply bg-surface text-foreground text-[13px] antialiased;
+    @apply bg-surface text-foreground text-[18px] antialiased;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     color-adjust: exact;

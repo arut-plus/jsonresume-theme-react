@@ -10,7 +10,7 @@ export const Languages: React.FC<LanguagesProps> = ({ languages }) => {
   if (!languages?.length) return null;
 
   return (
-    <SidebarSection title="sections.languages" contentClassName="grid grid-cols-2">
+    <SidebarSection title="sections.languages" contentClassName="grid">
       {languages.map((language, index) => (
         <div key={`language-${index}`}>
           <h3 className="text-base font-medium text-foreground">{language.language}</h3>
